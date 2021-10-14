@@ -1,0 +1,5 @@
+.img {
+    margin-bottom: 1rem;
+    border-radius: var(--radius);
+    height: 10rem;
+}

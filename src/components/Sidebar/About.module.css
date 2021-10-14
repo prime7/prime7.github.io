@@ -1,0 +1,11 @@
+.wrapper {
+    text-align: center;
+}
+.wrapper p {
+    color: var(--clr-grey-5);
+}
+.img {
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}

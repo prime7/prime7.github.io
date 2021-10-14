@@ -1,0 +1,46 @@
+:root {
+    --black: #333;
+    --gray: #555;
+    --white: #fff;
+    --honeydew: #f1faee;
+    --red: #e63946;
+    --blue: #1d3557;
+    --celadon-blue: #457b9d;
+    --text-size-base: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: var(--honeydew);
+    color: var(--blue);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: var(--text-size-base);
+    line-height: 1.4;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--blue);
+}
+a {
+    color: var(--red);
+}
+
+.banner-img {
+    margin-bottom: 1rem;
+    height: 17rem;
+    border-radius: 1rem;
+}
