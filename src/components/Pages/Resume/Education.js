@@ -15,10 +15,8 @@ export default function Education() {
                                 (PBD)
                             </strong>
                         </Col>
-                        <Col>
-                            <div className="text-muted float-right">
-                                September,2019 - December,2021
-                            </div>
+                        <Col className="text-muted" xs={4}>
+                            September,2019 - December,2021
                         </Col>
                     </Row>
                     <a href="https://www.douglascollege.ca/">
@@ -42,7 +40,7 @@ export default function Education() {
                                 Bachelors in Computer Science and Engineering
                             </strong>
                         </Col>
-                        <Col className="text-muted float-right">
+                        <Col className="text-muted" xs={3}>
                             July,2014 - March,2018
                         </Col>
                     </Row>

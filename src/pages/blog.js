@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import { useStaticQuery, graphql } from "gatsby"
 import BlogPosts from "../components/Posts"
 
-export default function Posts() {
+export default function Blog() {
     const data = useStaticQuery(graphql`
         query MyQuery {
             allMdx {

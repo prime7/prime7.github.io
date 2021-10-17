@@ -12,7 +12,7 @@ export default function Work() {
                         <Col>
                             <strong>Software Developer Intern</strong>
                         </Col>
-                        <Col className="text-muted float-right">
+                        <Col className="text-muted" xs={3}>
                             April,2019 - July,2019
                         </Col>
                     </Row>

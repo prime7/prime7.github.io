@@ -12,8 +12,8 @@ export default function Menu() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Link to="/posts" className="nav-link">
-                            Posts
+                        <Link to="/blog" className="nav-link">
+                            Blog
                         </Link>
                         <Link to="/resume" className="nav-link">
                             Resume

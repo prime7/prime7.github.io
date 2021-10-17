@@ -1,5 +1,13 @@
 import React from "react"
-import { Card, Col, ListGroup, ListGroupItem, Row } from "react-bootstrap"
+import {
+    Breadcrumb,
+    BreadcrumbItem,
+    Card,
+    Col,
+    ListGroup,
+    ListGroupItem,
+    Row,
+} from "react-bootstrap"
 
 export default function Projects() {
     return (
@@ -12,13 +20,17 @@ export default function Projects() {
                         <Col>
                             <strong>Gatsby Portfolio Site(This Site)</strong>
                         </Col>
-                        <Col>
-                            <a href="https://prime7.github.io">Demo</a>
-                        </Col>
-                        <Col>
-                            <a href="https://github.com/prime7/prime7.github.io">
-                                Source
-                            </a>
+                        <Col xs={3}>
+                            <Breadcrumb>
+                                <BreadcrumbItem>
+                                    <a href="https://prime7.github.io">Demo</a>
+                                </BreadcrumbItem>
+                                <BreadcrumbItem>
+                                    <a href="https://github.com/prime7/prime7.github.io">
+                                        Source
+                                    </a>
+                                </BreadcrumbItem>
+                            </Breadcrumb>
                         </Col>
                     </Row>
                     <ul>
@@ -37,7 +49,7 @@ export default function Projects() {
                         <Col>
                             <strong>Autism Speech Therapy Game</strong>{" "}
                         </Col>
-                        <Col>
+                        <Col xs={3}>
                             <a href="https://play.google.com/store/apps/details?id=com.zottz.zspeech">
                                 Demo
                             </a>
@@ -56,7 +68,7 @@ export default function Projects() {
                         <Col>
                             <strong>Simple Calculator in React Native</strong>
                         </Col>
-                        <Col>
+                        <Col xs={3}>
                             <a href="https://github.com/prime7/react_native_calculator">
                                 Source
                             </a>

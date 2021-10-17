@@ -15,7 +15,7 @@ export default function Post({ post, title }) {
             <Card.Body>
                 <Card.Title>{post.frontmatter.title}</Card.Title>
 
-                <Link key={post.id} to={`/posts/${post.frontmatter.slug}`}>
+                <Link key={post.id} to={`/blog/${post.frontmatter.slug}`}>
                     See Detail
                 </Link>
             </Card.Body>
