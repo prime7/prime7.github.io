@@ -4,7 +4,7 @@
 .timeline {
     position: relative;
     overflow: auto;
-    padding: 0 25px;
+    padding: 0 20px;
     padding-bottom: 10px;
 }
 .timeline:before {
@@ -65,7 +65,7 @@
     }
     .timeline ul {
         padding-left: 0;
-        max-width: 700px;
+        max-width: 1000px;
         margin: 0 auto;
     }
     .timeline li {

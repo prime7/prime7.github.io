@@ -41,7 +41,7 @@ export default function Education() {
                             </strong>
                         </Col>
                         <Col className="text-muted" xs={3}>
-                            July,2014 - March,2018
+                            July,2014 - September,2018
                         </Col>
                     </Row>
                     <a href="https://www.aust.edu/">
