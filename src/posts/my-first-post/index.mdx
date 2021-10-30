@@ -3,7 +3,7 @@ title: First title
 slug: first-title
 date: 2020-03-21
 category: react
-banner: ./image2.jpg
+banner: ./image.jpg
 images:
     - ./image.jpg
     - ./image2.jpg
@@ -21,11 +21,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
     developers build blazing fast websites and apps
 </p>
 
-<GatsbyImage
-    image={getImage(props.images[1])}
-    alt="random stuff"
-    style={{ width: "20rem", borderRadius: "1rem" }}
-/>
+<GatsbyImage image={getImage(props.images[1])} alt="random stuff" />
 
 <p align="center">
     <a href="https://github.com/gatsbyjs/gatsby/blob/master/LICENSE">

@@ -15,7 +15,7 @@ export default function Education() {
                                 (PBD)
                             </strong>
                         </Col>
-                        <Col className="text-muted" xs={4}>
+                        <Col className="text-muted text-end" xs={4}>
                             September,2019 - December,2021
                         </Col>
                     </Row>
@@ -40,7 +40,7 @@ export default function Education() {
                                 Bachelors in Computer Science and Engineering
                             </strong>
                         </Col>
-                        <Col className="text-muted" xs={3}>
+                        <Col className="text-muted text-end" xs={4}>
                             July,2014 - September,2018
                         </Col>
                     </Row>

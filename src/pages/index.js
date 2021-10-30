@@ -11,7 +11,9 @@ export default function Home() {
             <Container className="text-center">
                 <Front />
                 <History />
+                <hr />
                 <Testimonial />
+                <hr />
             </Container>
         </Layout>
     )

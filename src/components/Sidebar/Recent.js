@@ -27,7 +27,7 @@ export default function Recent() {
                 {posts.map(post => (
                     <li key={post.frontmatter.slug}>
                         <Link
-                            to={`/posts/${post.frontmatter.slug}`}
+                            to={`/blog/${post.frontmatter.slug}`}
                             key={post.frontmatter.slug}
                         >
                             {post.frontmatter.title}

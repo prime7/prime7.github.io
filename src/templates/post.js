@@ -42,7 +42,7 @@ const posts = ({ data }) => {
                         <GatsbyImage
                             image={getImage(banner)}
                             alt={title}
-                            className="banner-img"
+                            className="banner-img justify-content-center"
                         />
                         <h3>{title}</h3>
                         <p>{date}</p>
