@@ -11,21 +11,27 @@ export default function SocialLinks() {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <FaGithub style={{ fontSize: "2.5rem" }} />
+                    <FaGithub
+                        style={{ fontSize: "2.5rem", color: "#3A3D45" }}
+                    />
                 </a>
                 <a
                     href="https://twitter.com/toptechschool"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <FaTwitter style={{ fontSize: "2.5rem" }} />
+                    <FaTwitter
+                        style={{ fontSize: "2.5rem", color: "#08A0E9" }}
+                    />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/tarek5701/"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    <FaLinkedin style={{ fontSize: "2.5rem" }} />
+                    <FaLinkedin
+                        style={{ fontSize: "2.5rem", color: "#0E76E8" }}
+                    />
                 </a>
             </div>
         </Card>

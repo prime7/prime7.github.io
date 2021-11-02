@@ -1,47 +1,137 @@
 import React from "react"
-import { Card, Col, Row } from "react-bootstrap"
+import { Card, Container, Row, Col } from "react-bootstrap"
+import {
+    SiDjango,
+    SiScikitlearn,
+    SiReact,
+    SiGatsby,
+    SiDocker,
+    SiAmazonaws,
+    SiPostgresql,
+    SiAmazons3,
+    SiPowerbi,
+    SiTableau,
+    SiPandas,
+    SiGit,
+} from "react-icons/si"
+import * as styles from "./Languages.module.css"
 
 export default function Languages() {
     return (
         <React.Fragment>
-            <Card body className="mb-4">
-                <Row>
-                    <Col>
-                        <h5>Framework</h5>
-                        <ul>
-                            <li>
-                                <strong>Django</strong>
-                            </li>
-                            <li>
-                                <strong>React</strong>
-                            </li>
-                            <li>React-Native</li>
-                            <li>Gatsby</li>
-                            <li>Scikit Learn</li>
-                        </ul>
-                    </Col>
-                    <Col>
-                        <h5>Others</h5>
-                        <ul>
-                            <li>Docker</li>
-                            <li>AWS</li>
-                            <li>RDS</li>
-                            <li>Postgresql</li>
-                            <li>S3</li>
-                            <li>Redis</li>
-                        </ul>
-                    </Col>
-                </Row>
-            </Card>
             <Card body>
-                <h5>Tools used</h5>
-                <ul>
-                    <li>
-                        <strong>Tableau</strong>
-                    </li>
-                    <li>PowerBI</li>
-                    <li>R-Studio</li>
-                </ul>
+                <Container>
+                    <Row className={styles.row}>
+                        <Col>
+                            <SiDjango
+                                className={styles.icon}
+                                style={{ color: "green" }}
+                            />
+                            <p>Django</p>
+                        </Col>
+                        <Col>
+                            <SiReact
+                                className={styles.icon}
+                                style={{ color: "blue" }}
+                            />
+                            <p>React.js</p>
+                        </Col>
+                        <Col>
+                            <SiReact
+                                className={styles.icon}
+                                style={{ color: "blue" }}
+                            />
+                            <p>React Native</p>
+                        </Col>
+
+                        <Col>
+                            <SiGatsby
+                                className={styles.icon}
+                                style={{ color: "purple" }}
+                            />
+                            <p>Gatsby</p>
+                        </Col>
+                    </Row>
+                    <hr />
+                    <Row className={styles.row}>
+                        <Col>
+                            <SiGit
+                                className={styles.icon}
+                                style={{ color: "grey" }}
+                            />
+                            <p>Git</p>
+                        </Col>
+                        <Col>
+                            <SiDocker
+                                className={styles.icon}
+                                style={{ color: "skyblue" }}
+                            />
+                            <p>Docker</p>
+                        </Col>
+                        <Col>
+                            <SiAmazonaws
+                                className={styles.icon}
+                                style={{ color: "black" }}
+                            />
+                            <p>AWS</p>
+                        </Col>
+                        <Col>
+                            <SiPostgresql
+                                className={styles.icon}
+                                style={{
+                                    color: "darkblue",
+                                }}
+                            />
+                            <p>Postgresql</p>
+                        </Col>
+                        <Col>
+                            <SiAmazons3
+                                className={styles.icon}
+                                style={{
+                                    color: "darkblue",
+                                }}
+                            />
+                            <p>AWS S3</p>
+                        </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                        <Col>
+                            <SiScikitlearn
+                                className={styles.icon}
+                                style={{ color: "orange" }}
+                            />
+                            <p>SKLearn</p>
+                        </Col>
+                        <Col>
+                            <SiTableau
+                                className={styles.icon}
+                                style={{
+                                    color: "purple",
+                                }}
+                            />
+                            <p>Tableau</p>
+                        </Col>
+                        <Col>
+                            <SiPowerbi
+                                className={styles.icon}
+                                style={{
+                                    color: "yellow",
+                                }}
+                            />
+                            <p>PowerBI</p>
+                        </Col>
+                        <Col>
+                            <SiPandas
+                                className={styles.icon}
+                                style={{
+                                    color: "orange",
+                                }}
+                            />
+                            <p>Pandas</p>
+                        </Col>
+                    </Row>
+                </Container>
             </Card>
         </React.Fragment>
     )
