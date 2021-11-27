@@ -1,0 +1,58 @@
+---
+title: Fourth title
+slug: fourth-title-2
+date: 2020-03-21
+category: django
+banner: ./image.jpg
+images:
+    - ./image.jpg
+---
+
+import { Link } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
+<GatsbyImage
+    image={getImage(props.images[0])}
+    alt="random stuff"
+    className="first-inline-img"
+/>
+<p align="center">
+    <a href="https://www.gatsbyjs.com">
+        <img
+            alt="Gatsby"
+            src="https://www.gatsbyjs.com/Gatsby-Monogram.svg"
+            width="60"
+        />
+    </a>
+</p>
+<h1 align="center">Gatsby v3</h1>
+
+<p align="center">⚛️ 📄 🚀</p>
+<p align="center">
+    <strong>Fast in every way that matters</strong>
+</p>
+<p align="center">
+    Gatsby is a free and open source framework based on React that helps
+    developers build blazing fast websites and apps
+</p>
+
+# Load Libraries
+
+```python
+
+import numpy as np
+
+import pandas as pd
+
+import seaborn as sns
+
+import matplotlib as mpl
+
+import matplotlib.pyplot as plt
+
+import ast
+```
+
+<Link to="/posts" className="btn center-btn">
+    all posts
+</Link>

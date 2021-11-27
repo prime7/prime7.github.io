@@ -11,3 +11,7 @@
 .icon:hover {
     transform: scale(1.2);
 }
+
+.container hr {
+    margin: 12px 0px;
+}
