@@ -45,8 +45,8 @@ const posts = ({ data }) => {
                             className="banner-img justify-content-center"
                         />
                         <h3>{title}</h3>
-                        <p>{date}</p>
-
+                        {date}
+                        <hr />
                         <MDXRenderer images={images}>{body}</MDXRenderer>
                     </Col>
                     <Col xs={12} md={4}>

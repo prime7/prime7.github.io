@@ -29,15 +29,16 @@ module.exports = {
             options: {
                 gatsbyRemarkPlugins: [
                     {
-                        resolve: "gatsby-remark-images",
-                        options: {
-                            maxWidth: 800,
-                        },
-                    },
-                    {
                         resolve: `gatsby-remark-highlight-code`,
                         options: {
                             theme: "vscode",
+                            lineNumbers: true,
+                        },
+                    },
+                    {
+                        resolve: "gatsby-remark-images",
+                        options: {
+                            maxWidth: 800,
                         },
                     },
                 ],

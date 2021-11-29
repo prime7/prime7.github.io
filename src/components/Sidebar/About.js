@@ -16,8 +16,8 @@ export default function About() {
                 className={styles.img}
             />
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
-                eligendi.
+                I'm Tarek Ahmed, Software Engineer having 1 year experience of
+                building Full stack web apps.
             </p>
         </div>
     )
