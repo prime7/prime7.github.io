@@ -50,11 +50,11 @@ export default function History() {
     return (
         <div className={styles.container}>
             <div className={styles.timeline}>
-                {contents.map(content => (
-                    <ul>
+                {contents.map((content, idx) => (
+                    <ul key={idx}>
                         <h2>{content.year}</h2>
-                        {content.events.map(row => (
-                            <li>
+                        {content.events.map((row, idx) => (
+                            <li key={idx}>
                                 <h3>{row.headline}</h3>
                                 <p>{row.news}</p>
                             </li>

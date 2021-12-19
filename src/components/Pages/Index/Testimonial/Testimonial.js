@@ -23,19 +23,9 @@ export default function Testimonial() {
     return (
         <>
             <h2>Testimonial</h2>
-
             <Carousel variant="dark" className={style.container}>
                 {contents.map((item, idx) => (
-                    <Carousel.Item key={idx} style={{ minHeight: "250px" }}>
-                        <svg
-                            class="bd-placeholder-img"
-                            width="100%"
-                            height="100%"
-                            xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true"
-                            preserveAspectRatio="xMidYMid slice"
-                            focusable="false"
-                        ></svg>
+                    <Carousel.Item key={idx} className={style.item}>
                         <Carousel.Caption>
                             <h5>{item.title}</h5>
                             <p>{item.message}</p>

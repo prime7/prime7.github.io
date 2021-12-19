@@ -7,7 +7,7 @@ export default function Menu() {
         <Navbar collapseOnSelect expand="lg" variant="dark" bg="dark">
             <Container>
                 <Link to="/" className="navbar-brand">
-                    {"<Tarek/>"}
+                    {"<Tarek />"}
                 </Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
