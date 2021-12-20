@@ -85,6 +85,54 @@ const config = {
                 "Mentaionable courses done: Computer Graphics, Pattern Recognition and Machine Learning, Information System Design, Introduction to AI, Microprocessor and Microcontrollers, Digital System Design, Database, Software Development, Data Structures and Algorithm, Object Oriented Programming.",
         },
     ],
+
+    work: [
+        {
+            title: "Software Developer Intern",
+            date: "Apr,2019 - Jul,2019",
+            company: "Cookups Technologies Ltd, Bangladesh",
+            link: "https://cookups.com.bd/",
+            note: "Worked as a full-stack web deveoper",
+            features: [
+                "Implemented promotion feature in react.",
+                "UI changes and bug fixes.",
+                "Onboarding new cooks and explain the system",
+            ],
+        },
+    ],
+    projects: [
+        {
+            title: "Gatsby Portfolio Site(This Site)",
+            demo: "https://prime7.github.io/",
+            source: "https://github.com/prime7",
+            features: [
+                "This is my portfolio site built with Gatsby and Markdown",
+                "I have used reactjs, markdown, gatsby to make this site.",
+            ],
+        },
+        {
+            title: "Autism Speech Therapy Game",
+            demo: "https://play.google.com/store/apps/details?id=com.zottz.zspeech",
+            features: [
+                "It is a simple game built with Stencyl.",
+                "Helps autistic children understanding sequencing by playing a game.",
+            ],
+        },
+        {
+            title: "Simple Calculator in React Native",
+            source: "https://github.com/prime7/react_native_calculator",
+            features: ["It is a calculator app built with React Native"],
+        },
+        {
+            title: "React Light Flipper",
+            demo: "https://react-light-flipper.netlify.app/",
+            source: "https://github.com/prime7/react-light-flipper",
+            features: [
+                "This project has been made using react.js",
+                "Added css animations",
+            ],
+        },
+    ],
 }
 
 module.exports = config
