@@ -23,11 +23,20 @@ const config = {
             events: [
                 {
                     headline: "Looking for job",
-                    news: "Currently, I'm looking for a Software Developer or Data Analyst job.",
+                    news: "Currently, I'm looking for Software Developer or Data Analyst role in Canada.",
                 },
                 {
-                    headline: "Graduating as a Data Analyst",
-                    news: "After 2 years of struggle and living without my family finally I will be graduating in december",
+                    headline: "Graduated as a Data Analyst",
+                    news: "I have graduated from Douglas College with a Post Graduation Diploma in Data Analytics.",
+                },
+            ],
+        },
+        {
+            year: 2020,
+            events: [
+                {
+                    headline: "Joined Dhanrhak Investments",
+                    news: "After coming to Canada for my PGD, I started looking for part-time software developer roles and I was fortunate to land a job at Dhanrhak Investments as a Software Developer.",
                 },
             ],
         },
@@ -35,16 +44,16 @@ const config = {
             year: 2019,
             events: [
                 {
-                    headline: "Got Admission in Douglas College",
-                    news: "While doing my thesis I got interest in Machine Learning and Data Science which lead me to pursue my Post Graduation Diploma in Data Analytics. I was little nervous as well because this was the first time I will be living without my family.",
+                    headline: "Study Abroad",
+                    news: "While doing my thesis I got interest in Machine Learning and Data Science which lead me to pursue my Post Graduation Diploma in Data Analytics at Douglas College. I was little nervous at the beginning because this was the first time I will be living without my family.",
                 },
                 {
                     headline: "Joined Cookups technology",
-                    news: "Started my first job in a local startup company. I learned a lot from the team and this experience has pushed me a lot in my career. Mostly I was a frontend react developer though I learned backend stuffs as well.",
+                    news: "Started my first job in a local startup company. I learned a lot from the team and this experience has pushed me a lot in my career. Mostly I was a frontend react developer though I learned backend(Django,Docker) stuffs as well.",
                 },
                 {
                     headline: "University Graduation",
-                    news: "I graduated in 2019.",
+                    news: "I graduated from Ahsanullah University of Science and Technology with a Bachelor's in Computer Science Degree.",
                 },
             ],
         },
@@ -53,11 +62,7 @@ const config = {
             events: [
                 {
                     headline: "University Admission",
-                    news: "Got admitted into Ahsanullah University of Science and Technology in Computer Science. I was so excited to get my own computer/laptop rather than the University.",
-                },
-                {
-                    headline: "Highschool Graduation",
-                    news: "I graduated from highschool with highest CGPA.",
+                    news: "Got admitted into Ahsanullah University of Science and Technology in Computer Science. I was so excited to get my own computer/laptop rather than the University :-D",
                 },
             ],
         },
@@ -68,69 +73,61 @@ const config = {
             degree: "Computing and Information System, Data Analytics (PBD)",
             date: "Sept,2019 - Dec,2021",
             institution: {
-                name: "Douglas College, British Columbia, Canada",
+                name: "Douglas College, Canada",
                 link: "https://www.douglascollege.ca/",
             },
             courses:
-                "Mentionable courses done: Introduction to programming, System Analysis and design, Operating System, Software Engineering, Advanced web programming with Javascript, Fundamental of Machine Learning, Business Statistics, Fundamental of Data Analytics, Data Visualization, Special topics in Data analytics.",
+                "Relevant Coursework: Introduction to programming, System Analysis and design, Operating System, Software Engineering, Advanced web programming with JavaScript, Fundamental of Machine Learning, Business Statistics, Fundamental of Data Analytics, Data Visualization, Special topics in Data analytics.",
         },
         {
             degree: "Bachelors in Computer Science and Engineering",
             date: "Jul,2014 - Sept,2018",
             institution: {
-                name: "Ahsanullah University of Science and Technology, Dhaka, Bangladesh",
+                name: "Ahsanullah University of Science and Technology, Bangladesh",
                 link: "https://www.aust.edu/",
             },
             courses:
-                "Mentaionable courses done: Computer Graphics, Pattern Recognition and Machine Learning, Information System Design, Introduction to AI, Microprocessor and Microcontrollers, Digital System Design, Database, Software Development, Data Structures and Algorithm, Object Oriented Programming.",
+                "Relevant Coursework: Computer Graphics, Pattern Recognition and Machine Learning, Information System Design, Introduction to AI, Microprocessor and Microcontrollers, Digital System Design, Database, Software Development, Data Structures and Algorithm, Object Oriented Programming.",
         },
     ],
 
     work: [
         {
+            title: "Software Developer",
+            date: "Nov,2019 - Apr,2021",
+            company: "Dhanrhak Investments",
+            link: "https://www.dhanrhakinvestments.com/",
+            note: "Worked as a software developer, build landing page for the company website, created MVP for financial web platform meetquoteshack, and incuman.com. Worked closely with the CEO to build the team, organizing projects and customer support which lead to company's first 20 registered shop. I have used Django and React.js extensively here.",
+        },
+        {
             title: "Software Developer Intern",
             date: "Apr,2019 - Jul,2019",
-            company: "Cookups Technologies Ltd, Bangladesh",
+            company: "Cookups Technologies Ltd",
             link: "https://cookups.com.bd/",
-            note: "Worked as a full-stack web deveoper",
-            features: [
-                "Implemented promotion feature in react.",
-                "UI changes and bug fixes.",
-                "Onboarding new cooks and explain the system",
-            ],
+            note: "Build web UI components & re-usable css modules/utilities, developed Cookup's promotion feature, helped onboarding new cooks and explain the system.",
         },
     ],
+
     projects: [
         {
             title: "Gatsby Portfolio Site(This Site)",
             demo: "https://prime7.github.io/",
             source: "https://github.com/prime7",
-            features: [
-                "This is my portfolio site built with Gatsby and Markdown",
-                "I have used reactjs, markdown, gatsby to make this site.",
-            ],
+            note: "This is my portfolio site built with Gatsby and Markdown, used css modules with reusable components. Easy editable config file which holds all the information of the site.",
         },
         {
             title: "Autism Speech Therapy Game",
             demo: "https://play.google.com/store/apps/details?id=com.zottz.zspeech",
-            features: [
-                "It is a simple game built with Stencyl.",
-                "Helps autistic children understanding sequencing by playing a game.",
-            ],
+            note: "It is a simple game built with Stencyl. Helps autistic children understanding sequencing by playing a game.",
         },
         {
             title: "Simple Calculator in React Native",
             source: "https://github.com/prime7/react_native_calculator",
-            features: ["It is a calculator app built with React Native"],
         },
         {
             title: "React Light Flipper",
             demo: "https://react-light-flipper.netlify.app/",
             source: "https://github.com/prime7/react-light-flipper",
-            features: [
-                "This project has been made using react.js",
-                "Added css animations",
-            ],
         },
     ],
 }

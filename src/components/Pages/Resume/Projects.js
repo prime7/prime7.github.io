@@ -14,7 +14,7 @@ export default function Projects() {
                             <Col>
                                 <strong>{item.title}</strong>
                             </Col>
-                            <Col xs={3}>
+                            <Col xs={3} className="text-end">
                                 {item.demo && (
                                     <a
                                         target="_blank"
@@ -36,11 +36,14 @@ export default function Projects() {
                                 )}
                             </Col>
                         </Row>
-                        <ul>
-                            {item.features.map(f => (
-                                <li>{f}</li>
-                            ))}
-                        </ul>
+                        {item.note && <p>{item.note}</p>}
+                        {item.features && (
+                            <ul>
+                                {item.features.map(f => (
+                                    <li>{f}</li>
+                                ))}
+                            </ul>
+                        )}
                     </ListGroupItem>
                 ))}
             </ListGroup>

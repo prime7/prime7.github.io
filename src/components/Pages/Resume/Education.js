@@ -9,7 +9,7 @@ export default function Education() {
             <hr className="m-0 p-0" />
             {config.education.map(item => (
                 <ListGroup variant="flush">
-                    <ListGroupItem>
+                    <ListGroupItem as="div">
                         <Row>
                             <Col>
                                 <strong>{item.degree}</strong>
@@ -21,7 +21,7 @@ export default function Education() {
                         <a href={item.institution.link}>
                             {item.institution.name}
                         </a>
-                        <p>{item.courses}</p>
+                        <p className="mb-0 pb-0">{item.courses}</p>
                     </ListGroupItem>
                 </ListGroup>
             ))}
