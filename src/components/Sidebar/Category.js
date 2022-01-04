@@ -18,7 +18,12 @@ export default function Category() {
             <ul>
                 {categories.map((category, idx) => (
                     <li key={idx}>
-                        <Link to={`/category/${category}`}>{category}</Link>
+                        <Link
+                            to={`/category/${category}`}
+                            className="text-capitalize"
+                        >
+                            {category}
+                        </Link>
                     </li>
                 ))}
             </ul>

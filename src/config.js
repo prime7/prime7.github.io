@@ -116,6 +116,11 @@ const config = {
             note: "This is my portfolio site built with Gatsby and Markdown, used css modules with reusable components. Easy editable config file which holds all the information of the site.",
         },
         {
+            title: "Tmdb Box Office Prediction analysis",
+            source: "https://github.com/prime7/tmdb-box-office-prediction",
+            note: "This is final project of course work CSIS-4260 Special Topics in Data Analytics. I have applied different techniques of data manipulation and did extensive exploratory data analysis and finally applied Linear Regression and Random forest regression with hyper tuned model.",
+        },
+        {
             title: "Autism Speech Therapy Game",
             demo: "https://play.google.com/store/apps/details?id=com.zottz.zspeech",
             note: "It is a simple game built with Stencyl. Helps autistic children understanding sequencing by playing a game.",

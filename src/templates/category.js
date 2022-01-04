@@ -39,7 +39,7 @@ export default function Category(props) {
     } = props
     return (
         <Layout>
-            <Seo title={`Blog on ${category} | Tarek Ahmed`} />
+            <Seo title={`Posts on ${category} | Tarek Ahmed`} />
             <Posts posts={posts} title={`Category - ${category}`} />
         </Layout>
     )

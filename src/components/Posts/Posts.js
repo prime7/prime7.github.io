@@ -5,7 +5,7 @@ import Post from "./Post"
 export default function Posts({ posts = null, title = "Posts" }) {
     return (
         <Container>
-            <h3>{title}</h3>
+            <h3 className="text-capitalize">{title}</h3>
             <ul className="p-0">
                 <Row>
                     {posts === null ? (

@@ -48,7 +48,7 @@ const posts = ({ data }) => {
                         />
                         <h3>{title}</h3>
                         {date}
-                        <hr />
+                        <hr className="my-2" />
                         <MDXRenderer images={images}>{body}</MDXRenderer>
                     </Col>
                     <Col xs={12} md={4}>

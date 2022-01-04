@@ -13,7 +13,9 @@ export default function Post({ post, title }) {
                 className={styles.img}
             />
             <Card.Body>
-                <Card.Title>{post.frontmatter.title}</Card.Title>
+                <Card.Title className="text-capitalize">
+                    {post.frontmatter.title}
+                </Card.Title>
 
                 <Link key={post.id} to={`/blog/${post.frontmatter.slug}`}>
                     See Detail

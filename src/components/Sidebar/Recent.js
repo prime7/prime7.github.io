@@ -29,6 +29,7 @@ export default function Recent() {
                         <Link
                             to={`/blog/${post.frontmatter.slug}`}
                             key={post.frontmatter.slug}
+                            className="text-capitalize"
                         >
                             {post.frontmatter.title}
                         </Link>
