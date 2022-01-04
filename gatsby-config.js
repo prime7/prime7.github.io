@@ -1,4 +1,10 @@
 module.exports = {
+    siteMetadata: {
+        title: "Tarek Ahmed",
+        description: "I am full-stack web developer based in Vancuver,Canada.",
+        author: "toptechschool",
+        twitterUsername: "@toptechschool",
+    },
     plugins: [
         {
             resolve: "gatsby-source-filesystem",

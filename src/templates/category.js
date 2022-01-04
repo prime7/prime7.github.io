@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Posts from "../components/Posts"
+import Seo from "../components/Seo"
 
 export const query = graphql`
     query GetCategoryPosts($category: String) {
@@ -38,6 +39,7 @@ export default function Category(props) {
     } = props
     return (
         <Layout>
+            <Seo title={`Blog on ${category} | Tarek Ahmed`} />
             <Posts posts={posts} title={`Category - ${category}`} />
         </Layout>
     )

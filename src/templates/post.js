@@ -5,6 +5,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Container, Row, Col } from "react-bootstrap"
 import Sidebar from "../components/Sidebar/Sidebar"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import Seo from "../components/Seo"
 
 export const query = graphql`
     query GetPost($slug: String) {
@@ -36,6 +37,7 @@ const posts = ({ data }) => {
     } = data
     return (
         <Layout>
+            <Seo title={`${title}  | Tarek Ahmed`} />
             <Container>
                 <Row>
                     <Col xs={12} md={8}>
