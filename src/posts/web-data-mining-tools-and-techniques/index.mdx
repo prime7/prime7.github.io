@@ -1,0 +1,149 @@
+---
+title: Web data mining techniques, tools, and algorithms
+slug: web-data-mining-techniques-tools-and-algorithms
+date: 2022-01-05
+category: others
+banner: ./banner.png
+published: true
+tags:
+    - Data Mining
+    - Data Analysis
+images:
+    - ./data_mining.png
+    - ./usage_mining.png
+    - ./fcm_1.png
+    - ./fcm_2.png
+    - ./fcm_3.png
+---
+
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
+Web mining is moving the World Wide Web towards a more useful environment where users will be able to find the information they intend to look.
+The amount of data we are producing each day is mind boggling. There are 2.5 quintillion[1] bytes of data created each day at our current pace.
+Data mining is the process of extracting data’s available on the internet and web mining is used to discover and extract information from web related data
+sources such as multimedia image, audio, video, hyperlinks, html tags, website logs etc. Using web mining is important to the organizations because it can
+help them to extract useful information from raw data. We can categorize all these in 3 different sections.
+
+<GatsbyImage
+    image={getImage(props.images[0])}
+    alt="random stuff"
+    className="image-responsive"
+/>
+
+## Web content mining
+
+Content mining is the process by which information is extracted from web sites in the form of audio, video, text documents.
+This information is designed to passed to users in these forms as HTML. Over the last decade, number of websites that are operating is in billions.
+Extracting queries in this amount of data is comparatively difficult and time consuming, we should also keep in mind that we are constantly generating
+data in rapid speed which makes the task more difficult. That’s why there are some techniques used to mine web contents which makes information
+structured to be queried on easily. Most of the web pages are in the form of text. Some of the useful web mining techniques are:
+
+1. Unstructured text mining (information extraction, summarization, clustering, topic tracking)
+1. Structured mining (crawler, page content mining)
+1. Semi structured text mining (object exchange model, top-down extraction, web data extraction language)
+1. Multimedia mining ( SKICAT, color histogram matching, multimedia miner, shot boundary detection)
+
+## Web Structure Mining
+
+Web Structure mining depicts the way hyperlink’s structure works in web. Two kinds of hyperlink tree can be established, one is inter
+page hyperlink connection and other is intra page hyperlink connection. Link analysis is a cool technique to calculate a website’s worth or importance.
+Some algorithms have been developed over the years such as HITS, PageRank. These algorithms are applied to calculate quality of a web page or relevancy of a web page.
+
+## Web Usage Mining
+
+Collecting and analyzing web users’ data in the form of logs, activities is the process of web usage mining. We as a user generate huge data each day while
+using website. These data can be used to understand user behavior, betterment of the website. A website logs store much information like URL, timing, IP
+addresses which can be used to understand user behavior and insure good customer service. Mainly there are four types of data sources present in which
+usage data is collected: i. client level collection ii. browser level collection iii. proxy level connection. Complete web usage mining depends on three processes:
+
+1. Data collection
+2. Preprocessing
+3. Pattern discovery and analysis
+
+<div className="text-center  my-3">
+    <GatsbyImage image={getImage(props.images[1])} alt="random stuff" />
+</div>
+
+Mostly web usage mining techniques gathers data source from:
+
+1. Web logs
+1. Session logs
+1. Databases
+
+Web usage mining uses several data mining techniques to get result. Association rule mining is used to discover which pages a user visit even if they are not
+linked which can create association between users with specific interest. Using this knowledge, the trends of the activity of the users can be determined and predictions
+for the next page visit can be made. Besides using data analytics technique, some probabilistic grammar-based approach also used in the industry named as Ngram model
+for capturing the user navigation behavior patterns. This model assumes that the last N pages browsed effect the probability of identifying the next page to
+be visited uses Probabilistic Latent Semantic Analysis (PLSA) to discover patterns. Another is Fuzzy C Mean (FCM) an algorithm used in usage mining using clustering
+techniques. It is an unsupervised approach that is being used widely connect data. In every cluster there is a center point which describes features and importance
+of that cluster. Objects close to the center of the cluster become the member of the cluster. We will discuss FCM elaborately.
+
+## Fuzzy c Means algorithm
+
+This is a clustering algorithm which uses the basic principle of K means clustering but is faster than K means. FCM is a soft clustering approach
+where each data point is assigned a likelihood or probability score to belong to that cluster. Let’s first see the steps to make a FCM algorithm[2]:
+
+1. Assume a random number of clusters K.
+1. Initialization: Calculate the fuzzy membership µij using:
+    <div className="text-center  my-3">
+        <GatsbyImage image={getImage(props.images[2])} alt="random stuff" />
+    </div>
+1. Compute the fuzzy centers Vj using:
+    <div className="text-center  my-3">
+        <GatsbyImage image={getImage(props.images[3])} alt="random stuff" />
+    </div>
+1. **Termination:** Iterate until convergence or until a user specified number because depending on the situation it can be trapped in local minima.
+
+Here,
+K is the iteration step
+
+β is the termination criterion
+
+U = (µij)n\*c is the fuzzy membership matrix
+
+J is the objective function
+
+Below image[3] will demonstrate the difference between hard clustering and soft clustering:
+
+<div className="text-center my-3">
+    <GatsbyImage image={getImage(props.images[4])} alt="random stuff" />
+</div>
+
+The numbers above are representing similarities with other groups. So, the less dissimilar it is from the other groups, the high chance it must be in a particular group.
+
+### Advantages
+
+1. It gives better results when datasets are overlapping.
+1. Unlike k-means where data point must exclusively belong to one cluster center here data point is assigned membership to each
+   cluster center because of which data point may belong to more then one cluster center.
+
+### Disadvantages
+
+1. It is heavily depending on initial cluster numbers for effectiveness.
+1. Euclidean distance measures can unequally weight underlying factors.
+
+### How it can be used
+
+FCM is used to do pattern discovery. From the website logs, we can get the IP address, session details and page routes of a user which can be used to analyze the
+patterns in it. After filtering the data in preprocessing section, we extract user behavioral data then apply FCM with the dataset to do pattern correlations.
+
+|                         | Tools                   | Features                                                                                                                                                                                                        |
+| ----------------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Data processing tools   |                         |                                                                                                                                                                                                                 |
+|                         | Lisp Miner              | Performs data preprocessing by analyzing the click stream and collected data.                                                                                                                                   |
+|                         | SpeedTracer             | Mines web server logs and reconstruct the user navigational path for session identification. It does not use cookies, instead it uses IP and page information to recreates user navigation.                     |
+| Patterm Discovery Tools |                         |                                                                                                                                                                                                                 |
+|                         | SEWEBAR-CMS             | Provide interaction between data analyst and domain expert to perform discovery of patterns [4]                                                                                                                 |
+|                         | Patterm Discovery Tools | Develop the patterns of useful data by using sequence of various rules.                                                                                                                                         |
+| Patterm Analysis Tools  |                         |                                                                                                                                                                                                                 |
+|                         | WebViz                  | Analyze the patterns and provide them in the form of graphical patterns. The main idea of developing this tool was to provide WWW database designers a graphical outlook of their local db and access patterns. |
+|                         | WebMiner                | Mines the useful patterns and provides user specific information.                                                                                                                                               |
+
+Web data mining is considered as sub approach of data mining that focuses on gathering information from web. Web is a large domain that contains data in various forms like images, tables, text, videos, etc. As it is continuously increasing, it is becoming very challenging task to extract information. In this report we studied three important types of data mining along with a little description about each while elaborating on web usage mining. Furthermore, we discussed on a specific algorithm of web usage mining, FCM, how the algorithm works, it’s advantages and disadvantages. Although, there are some existing tools to do all these tasks but research studies on these algorithms will help to invent new algorithms and also improve existing algorithms and tools to cope up with the data we are generating each day.
+
+## Sources used
+
+1. https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/?sh=614f0e7f60ba
+2. https://sites.google.com/site/dataclusteringalgorithms/fuzzy-c-means-clustering-algorithm
+3. https://towardsdatascience.com/fuzzy-c-means-clustering-is-it-better-than-k-means-clustering-448a0aba1ee7
+4. T. Kliegr, D. Chudan, A. Hazucha and J. Rauch,” SEWBAR_CMS: A System for postprocessing Association rule Models”, Faculty of information and statistics VSE Praha., http://www.joomla.org.

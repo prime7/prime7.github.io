@@ -6,7 +6,7 @@
     --red: #e63946;
     --blue: #1d3557;
     --celadon-blue: #457b9d;
-    --text-size-base: 20px;
+    --text-size-base: 1.1rem;
 }
 
 * {
@@ -52,3 +52,20 @@ h1, h2, h3, h4, h5, h6, p, hr {
 	padding: 0;
 }
 
+.image-responsive{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;  
+    margin-bottom: 1em;  
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-color: #96D4D4;
+    padding: 5px;
+}
