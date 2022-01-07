@@ -118,17 +118,17 @@ const config = {
         {
             title: "Tmdb Box Office Prediction analysis",
             source: "https://github.com/prime7/tmdb-box-office-prediction",
-            note: "This is final project of course work CSIS-4260 Special Topics in Data Analytics. I have applied different techniques of data manipulation and did extensive exploratory data analysis and finally applied Linear Regression and Random forest regression with hyper tuned model.",
+            note: "This is final project of course work CSIS-4260 Special Topics in Data Analytics. I have applied different techniques of data manipulation and did extensive exploratory data analysis and finally applied Linear Regression and Random Forest regression with hyper tuned model.",
         },
         {
             title: "Wine Quality Prediction analysis",
             source: "https://github.com/prime7/wine_quality_prediction",
-            note: "This is final project of course work CSIS-3275 Introduction to Machine learning. I have applied different techniques of data manipulation and exploratory data analysis and finally applied GaussianNB, KNN, Decision Tree Classifier, Random Forest Classifier, AdaBoost Classfier and SVC in a Machine learning Pipeline and then took the best classifier for hypertuning.",
+            note: "This is final project of course work CSIS-3275 Introduction to Machine learning. I have applied different techniques of data manipulation and exploratory data analysis and finally applied GaussianNB, KNN, Decision Tree Classifier, Random Forest Classifier, AdaBoost Classifier and SVC in a Machine learning Pipeline and then took the best classifier for hypertuning.",
         },
         {
             title: "Fifa19 Player Analysis in Tableau",
             source: "https://github.com/prime7/fifa19_player_analysis",
-            note: "This is final project of course work CSIS-3860 Data Visualization. I have used Tablue to create this project and learned to use effectively to create dynamic dashboard, filtered dashboard to make better decission",
+            note: "This is final project of course work CSIS-3860 Data Visualization. I have used Tableau to create this project and learned to use effectively to create dynamic dashboard, filtered dashboard to make better decision.",
         },
         {
             title: "Autism Speech Therapy Game",
