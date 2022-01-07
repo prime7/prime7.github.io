@@ -121,14 +121,24 @@ const config = {
             note: "This is final project of course work CSIS-4260 Special Topics in Data Analytics. I have applied different techniques of data manipulation and did extensive exploratory data analysis and finally applied Linear Regression and Random forest regression with hyper tuned model.",
         },
         {
+            title: "Wine Quality Prediction analysis",
+            source: "https://github.com/prime7/wine_quality_prediction",
+            note: "This is final project of course work CSIS-3275 Introduction to Machine learning. I have applied different techniques of data manipulation and exploratory data analysis and finally applied GaussianNB, KNN, Decision Tree Classifier, Random Forest Classifier, AdaBoost Classfier and SVC in a Machine learning Pipeline and then took the best classifier for hypertuning.",
+        },
+        {
+            title: "Fifa19 Player Analysis in Tableau",
+            source: "https://github.com/prime7/fifa19_player_analysis",
+            note: "This is final project of course work CSIS-3860 Data Visualization. I have used Tablue to create this project and learned to use effectively to create dynamic dashboard, filtered dashboard to make better decission",
+        },
+        {
             title: "Autism Speech Therapy Game",
             demo: "https://play.google.com/store/apps/details?id=com.zottz.zspeech",
             note: "It is a simple game built with Stencyl. Helps autistic children understanding sequencing by playing a game.",
         },
-        {
-            title: "Simple Calculator in React Native",
-            source: "https://github.com/prime7/react_native_calculator",
-        },
+        // {
+        //     title: "Simple Calculator in React Native",
+        //     source: "https://github.com/prime7/react_native_calculator",
+        // },
         {
             title: "React Light Flipper",
             demo: "https://react-light-flipper.netlify.app/",
