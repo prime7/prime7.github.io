@@ -112,8 +112,13 @@ const config = {
         {
             title: "Gatsby Portfolio Site(This Site)",
             demo: "https://prime7.github.io/",
-            source: "https://github.com/prime7",
+            source: "https://github.com/prime7/prime7.github.io",
             note: "This is my portfolio site built with Gatsby and Markdown, used css modules with reusable components. Easy editable config file which holds all the information of the site.",
+        },
+        {
+            title: "Smart Summary",
+            source: "https://github.com/prime7/smart_summary",
+            note: "Smart summary gets a user input as Wikipedia link or raw input and generate the summary of that content. A full-stack web application built on top of Django and React.js and serve the machine learning model.",
         },
         {
             title: "Tmdb Box Office Prediction analysis",
@@ -139,11 +144,11 @@ const config = {
         //     title: "Simple Calculator in React Native",
         //     source: "https://github.com/prime7/react_native_calculator",
         // },
-        {
-            title: "React Light Flipper",
-            demo: "https://react-light-flipper.netlify.app/",
-            source: "https://github.com/prime7/react-light-flipper",
-        },
+        // {
+        //     title: "React Light Flipper",
+        //     demo: "https://react-light-flipper.netlify.app/",
+        //     source: "https://github.com/prime7/react-light-flipper",
+        // },
     ],
 }
 
