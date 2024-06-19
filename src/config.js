@@ -19,6 +19,24 @@ const config = {
 
     history: [
         {
+            year: 2024,
+            events: [
+                {
+                    headline: "Promoted to Software Engineer I",
+                    news: "After a year and half, I have been promoted to intermediate software engineer.",
+                },
+            ],
+        },
+        {
+            year: 2022,
+            events: [
+                {
+                    headline: "Got a job",
+                    news: "I was lucky enough to get into Chegg Inc and work there as software engineer.",
+                },
+            ],
+        },
+        {
             year: 2021,
             events: [
                 {
@@ -93,6 +111,21 @@ const config = {
 
     work: [
         {
+            title: "Software Engineer",
+            date: "February, 2022 - Continue",
+            company: "Chegg Inc",
+            link: "https://www.chegg.com/",
+            note: `Chegg has a powerful education content authoring, management and assessment platform that delivers online support to students to help them succeed in learning the STEM subjects. I am a Software Engineer and contributing to a priority-one project at Chegg. I play an integral role in designing and building Chegg’s next generation content authoring platform.
+            
+            Responsibilities:
+            
+            • Collaborate with Product, Engineering, Data Science, and User Experience teams across the globe to deliver intuitive and streamlined products that enable authors to work smarter, not harder
+            • Design, develop, and deliver front-end authoring tools and student side rendering components that are robust and performant
+            • Participate in lean and agile development process in a fast-paced environment, from planning, scoping, estimation all the way to optimization, maintenance, and support.
+            • Work within a small, close-knit team that are passionate about delivering quality software
+            • Work with the security team for internal LLM security risk analysis and safe-guard security issues within my team`,
+        },
+        {
             title: "Software Developer",
             date: "Nov,2019 - Apr,2021",
             company: "Dhanrhak Investments",
@@ -109,6 +142,11 @@ const config = {
     ],
 
     projects: [
+        {
+            title: "Chat Monster",
+            demo: "https://chatmonster.co",
+            note: "An AI powered chatbot application that generates a script that user can put in their site to create a custom chatbot with their business information.",
+        },
         {
             title: "Gatsby Portfolio Site(This Site)",
             demo: "https://prime7.github.io/",
@@ -140,15 +178,6 @@ const config = {
             demo: "https://play.google.com/store/apps/details?id=com.zottz.zspeech",
             note: "It is a simple game built with Stencyl. Helps autistic children understanding sequencing by playing a game.",
         },
-        // {
-        //     title: "Simple Calculator in React Native",
-        //     source: "https://github.com/prime7/react_native_calculator",
-        // },
-        // {
-        //     title: "React Light Flipper",
-        //     demo: "https://react-light-flipper.netlify.app/",
-        //     source: "https://github.com/prime7/react-light-flipper",
-        // },
     ],
 }
 
