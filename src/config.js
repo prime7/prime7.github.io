@@ -22,6 +22,14 @@ const config = {
             year: 2024,
             events: [
                 {
+                    headline: "Laid off",
+                    news: "After almost 3 years at Chegg, I was laid off, along with 350 other colleagues.",
+                },
+                {
+                    headline: "Build and sold Chatmonster",
+                    news: "I build a AI custom chatbot saas application and sold in flippa.com",
+                },
+                {
                     headline: "Promoted to Software Engineer I",
                     news: "After a year and half, I have been promoted to intermediate software engineer.",
                 },
@@ -112,32 +120,43 @@ const config = {
     work: [
         {
             title: "Software Engineer",
-            date: "February, 2022 - Continue",
+            date: "February 2022 - November 2024",
             company: "Chegg Inc",
             link: "https://www.chegg.com/",
-            note: `Chegg has a powerful education content authoring, management and assessment platform that delivers online support to students to help them succeed in learning the STEM subjects. I am a Software Engineer and contributing to a priority-one project at Chegg. I play an integral role in designing and building Chegg’s next generation content authoring platform.
-            
-            Responsibilities:
-            
-            • Collaborate with Product, Engineering, Data Science, and User Experience teams across the globe to deliver intuitive and streamlined products that enable authors to work smarter, not harder
-            • Design, develop, and deliver front-end authoring tools and student side rendering components that are robust and performant
-            • Participate in lean and agile development process in a fast-paced environment, from planning, scoping, estimation all the way to optimization, maintenance, and support.
-            • Work within a small, close-knit team that are passionate about delivering quality software
-            • Work with the security team for internal LLM security risk analysis and safe-guard security issues within my team`,
+            note: `
+            • Evolved from front-end specialist to full-stack engineer, mastering React.js, Node.js, federated GraphQL, and real-time subscriptions with AWS SNS and Lambda.
+            • Developed complex custom React WYSIWYG editors and high-performance components for authoring tools.
+            • Delivered two critical acquisition tools in 4 months: a content generation system (flashcards, quizzes, reviews) and a project organization tool, increasing user engagement by 30%.
+            • Conducted comprehensive A/B testing using Optimizely and internal tools to optimize user experience and conversion rates.
+            • Engineered NASA, an automation tool leveraging OCR technology to re-author legacy image-based answers into a structured JSON format, streamlining content management and resulting in $6 million cost savings for the company.
+            • Integrated audio transcription service, introducing AI-enhanced capabilities to acquisition tools using AWS Polly and OpenAI whisper.
+            • Led team effort to boost test coverage to 85% using Playwright and React Testing Library, enhancing product reliability.
+            • Partnered with the security team for LLM risk analysis, implementing data protection measures that reduced potential vulnerabilities by 35%.
+            • Actively participated in agile development processes, from planning to support, in a fast-paced environment.
+            • Demonstrated strong mentorship skills and consistently delivered high-quality work, meeting project deadlines and exceeding expectations.`,
+        },
+        {
+            title: "Information Technology Coach",
+            date: "October 2023 – February 2024",
+            company: "Get coding",
+            link: "https://get-building.ca/",
+            note: `
+            • Mentored 2 students transitioning into tech, designing curriculum for front-end development and student-side rendering.
+            • Provided personalized instruction, adapting methods to individual learning styles and project requirements.`,
         },
         {
             title: "Software Developer",
             date: "Nov,2019 - Apr,2021",
             company: "Dhanrhak Investments",
             link: "https://www.dhanrhakinvestments.com/",
-            note: "Worked as a software developer, build landing page for the company website, created MVP for financial web platform meetquoteshack, and incuman.com. Worked closely with the CEO to build the team, organizing projects and customer support which lead to company's first 20 registered shop. I have used Django and React.js extensively here.",
+            note: "• Worked as a software developer, build 3 websites for the company including the main portfolio website.",
         },
         {
             title: "Software Developer Intern",
             date: "Apr,2019 - Jul,2019",
             company: "Cookups Technologies Ltd",
             link: "https://cookups.com.bd/",
-            note: "Build web UI components & re-usable css modules/utilities, developed Cookup's promotion feature, helped onboarding new cooks and explain the system.",
+            note: `• Build web UI components in react.js and re-usable CSS modules/utilities, developed Cookups promotion feature, helped on-boarding 35+ new cooks and demonstrate the usage of web and mobile application.`,
         },
     ],
 
@@ -145,7 +164,10 @@ const config = {
         {
             title: "Chat Monster",
             demo: "https://chatmonster.co",
-            note: "An AI powered chatbot application that generates a script that user can put in their site to create a custom chatbot with their business information.",
+            note: `
+            • Developed a SAAS platform that generates an embeddable script for websites, enabling an AI-powered chatbot to answer customer queries and drive revenue with lead generation.
+            • Implemented advanced analytics dashboard using shadcn and recharts for admin panel.
+            • Tools Used: Next.js, next-auth, stripe, upstash, OpenAI, RAG, vector embeddings`,
         },
         {
             title: "Gatsby Portfolio Site(This Site)",

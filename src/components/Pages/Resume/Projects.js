@@ -36,7 +36,9 @@ export default function Projects() {
                                 )}
                             </Col>
                         </Row>
-                        {item.note && <p>{item.note}</p>}
+                        <div>
+                            {formatNote(item.note)}
+                        </div>
                         {item.features && (
                             <ul>
                                 {item.features.map(f => (
@@ -49,4 +51,22 @@ export default function Projects() {
             </ListGroup>
         </Card>
     )
+}
+
+function formatNote(note) {
+    return note
+        .trim()
+        .split('\n')
+        .map(line => line.trim())
+        .filter(line => line !== '')
+        .map((line, index) => {
+            if (line.startsWith('•')) {
+                return (
+                    <li key={index}>
+                        {line.substring(1).trim()}
+                    </li>
+                );
+            }
+            return <p key={index}>{line}</p>;
+        });
 }

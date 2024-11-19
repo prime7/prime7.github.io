@@ -46,8 +46,7 @@ export default function Front() {
                     <p>
                         Contact me at tarek5701@gmail.com or Schedule One-To-One
                         Session for any{" "}
-                        <a href="https://calendly.com/tarek5701/30min">
-                            {" "}
+                        <a target="_blank" href="https://calendar.app.google/xnwP5SnemsPPE2pb8">
                             discussion
                         </a>
                     </p>

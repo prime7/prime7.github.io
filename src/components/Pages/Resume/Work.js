@@ -2,14 +2,16 @@ import React from "react"
 import { Card, Col, ListGroup, ListGroupItem, Row } from "react-bootstrap"
 import config from "../../../config"
 
+
+
 export default function Work() {
     return (
         <Card body className="mb-4">
             <Card.Title>Work Experience</Card.Title>
             <hr />
             <ListGroup variant="flush">
-                {config.work.map(item => (
-                    <ListGroupItem variant="flush">
+                {config.work.map((item, index) => (
+                    <ListGroupItem variant="flush" key={index}>
                         <Row>
                             <Col>
                                 <strong>{item.title}</strong>
@@ -21,11 +23,14 @@ export default function Work() {
                             </Col>
                         </Row>
 
-                        <p>{item.note}</p>
+                        <div>
+                            {formatNote(item.note)}
+                        </div>
+                        
                         {item.features && (
-                            <ul>
-                                {item.features.map(f => (
-                                    <li>{f}</li>
+                            <ul >
+                                {item.features.map((f, i) => (
+                                    <li key={i}>{f}</li>
                                 ))}
                             </ul>
                         )}
@@ -34,4 +39,22 @@ export default function Work() {
             </ListGroup>
         </Card>
     )
+}
+
+function formatNote(note) {
+    return note
+        .trim()
+        .split('\n')
+        .map(line => line.trim())
+        .filter(line => line !== '')
+        .map((line, index) => {
+            if (line.startsWith('•')) {
+                return (
+                    <li key={index}>
+                        {line.substring(1).trim()}
+                    </li>
+                );
+            }
+            return <p key={index}>{line}</p>;
+        });
 }

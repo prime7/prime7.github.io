@@ -13,8 +13,8 @@ export default function Resume() {
             <Container style={{ fontSize: ".8rem" }}>
                 <Row>
                     <Col md={8} sm={12}>
-                        <Education />
                         <Work />
+                        <Education />
                         <Projects />
                     </Col>
                     <Col md={4} sm={12}>
