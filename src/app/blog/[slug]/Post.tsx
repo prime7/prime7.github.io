@@ -3,9 +3,8 @@ import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import {  MoveLeft } from "lucide-react";
+import { Badge, MoveLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 
 const BlogPost: React.FC<{
   mdxSource: MDXRemoteSerializeResult;

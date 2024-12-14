@@ -19,7 +19,7 @@ const BiographySection: React.FC = () => (
                     federated GraphQL, and real-time subscriptions with AWS SNS and Lambda.
                 </p>
                 <p className="text-gray-700 dark:text-gray-300">
-                    I've also developed Chat Monster, an AI-powered customer service solution that generates an 
+                    I&apos;ve also developed Chat Monster, an AI-powered customer service solution that generates an 
                     embeddable script for websites, enabling an AI-powered chatbot to answer customer queries 
                     and drive revenue with lead generation.
                 </p>
