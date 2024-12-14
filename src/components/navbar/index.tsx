@@ -7,11 +7,11 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "Blog", href: "/blog" },
     { name: "About", href: "/about" },
-    { name: "Contact", href: "/contact" },
+    { name: "Projects", href: "/projects" },
   ];
 
   return (
-    <nav className="bg-background shadow-sm border-b border-border sticky top-0">
+    <nav className="bg-background shadow-sm border-b border-border sticky top-0 z-50">
       <div className="flex justify-center h-16">
         <div className="flex space-x-8">
           {navItems.map((item) => (

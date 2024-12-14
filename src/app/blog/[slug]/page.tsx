@@ -7,11 +7,9 @@ export default async function BlogDetail({
 }: {
   params: { slug: string };
 }) {
-  const { slug } = params;
+  const { slug } = await params;
   const { mdxSource } = await getPost(slug);
   return (
-    <div>
-      <Post mdxSource={mdxSource} />
-    </div>
+    <Post mdxSource={mdxSource} />
   );
 }

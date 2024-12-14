@@ -4,7 +4,6 @@ import { Card, CardContent } from "@/components/ui/card";
 const BiographySection: React.FC = () => (
     <Card className="shadow-md mb-8">
         <CardContent className="p-6">
-            <h2 className="text-2xl font-bold mb-4 text-gray-800 dark:text-gray-100">About Me</h2>
             <div className="space-y-4">
                 <p className="text-gray-700 dark:text-gray-300">
                     A passionate software engineer with 5+ years of experience in building web applications and programming.

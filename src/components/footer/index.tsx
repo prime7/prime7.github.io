@@ -14,7 +14,7 @@ const socialLinks = [
 export default function Footer() {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className="w-full">
+        <footer className="w-full z-50">
             <div className="container mx-auto px-4 py-8">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="text-gray-600 mb-4 md:mb-0">

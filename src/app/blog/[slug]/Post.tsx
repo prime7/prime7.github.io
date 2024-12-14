@@ -3,14 +3,15 @@ import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import { Badge, MoveLeft } from "lucide-react";
+import {  MoveLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 const BlogPost: React.FC<{
   mdxSource: MDXRemoteSerializeResult;
 }> = ({ mdxSource }) => {
   return (
-    <div className="prose mx-auto my-8 p-4">
+    <div className="prose dark:prose-invert mx-auto my-8 p-4">
       <h1 className="text-foreground">
         {mdxSource.frontmatter?.title as string}
       </h1>
