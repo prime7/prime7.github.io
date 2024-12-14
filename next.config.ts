@@ -3,8 +3,6 @@ import createMDX from '@next/mdx'
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/',
-
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   transpilePackages: ['next-mdx-remote'],
