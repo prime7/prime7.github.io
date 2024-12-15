@@ -7,7 +7,7 @@ const ProfileSection: React.FC = () => (
         <CardContent className="p-6">
             <div className="relative w-40 h-40 mx-auto mb-6">
                 <Image
-                    src="/profile.jpeg"
+                    src="./profile.jpeg"
                     alt="Tarek Ahmed"
                     fill
                     className="rounded-full object-cover"
