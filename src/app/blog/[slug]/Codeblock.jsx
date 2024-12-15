@@ -2,12 +2,12 @@
 import React, { useState } from 'react';
 import { Check, Copy } from 'lucide-react';
 
-const CodeBlock = ({ children }: { children: React.ReactNode }) => {
+const CodeBlock = ({ children }) => {
   const [isCopied, setIsCopied] = useState(false);
 
   const copyToClipboard = async () => {
     const codeText = React.isValidElement(children)
-      ? (children as React.ReactElement<any>).props.children
+      ? children.props.children
       : children;
 
     if (codeText) {
