@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import matter from "gray-matter";
-import { MDXRemoteSerializeResult } from "next-mdx-remote";
-import { serialize } from "next-mdx-remote/serialize";
+import { MDXRemoteSerializeResult } from "remote-mdx";
+import { serialize } from "remote-mdx/serialize";
 import path from "path";
 
 const postDirectory = path.join(process.cwd(), "_posts");

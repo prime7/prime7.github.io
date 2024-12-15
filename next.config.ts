@@ -5,7 +5,9 @@ const nextConfig: NextConfig = {
   output: 'export',
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
-  transpilePackages: ['next-mdx-remote'],
+  images:{
+    unoptimized: true
+  },
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = { ...config.resolve.fallback, fs: false };
