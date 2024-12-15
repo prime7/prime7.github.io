@@ -3,8 +3,17 @@ import { MDXRemote, MDXRemoteSerializeResult } from "remote-mdx";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import { Badge, MoveLeft } from "lucide-react";
+import {  MoveLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import CodeBlock from "./Codeblock";
+
+
+const components = {
+  pre: CodeBlock,
+  code: (props: React.ComponentPropsWithRef<'code'>) => <code className="bg-gray-200 dark:bg-gray-800 rounded px-1 py-0.5" {...props} />,
+  a: (props: React.ComponentPropsWithRef<'a'>) => <a className="decoration-primary underline-offset-4 decoration-2 underline" {...props} />,
+};
 
 const BlogPost: React.FC<{
   mdxSource: MDXRemoteSerializeResult;
@@ -15,7 +24,7 @@ const BlogPost: React.FC<{
         {mdxSource.frontmatter?.title as string}
       </h1>
       <div className="flex flex-row justify-between items-center">
-        <Badge className="capitalize bg-primary/10 text-primary">
+        <Badge className="capitalize bg-primary/80 text-black dark:text-primary">
           {mdxSource.frontmatter?.category as string}
         </Badge>
         <div>
@@ -47,9 +56,10 @@ const BlogPost: React.FC<{
         />
       )}
       <div className="text-foreground">
-        <MDXRemote {...mdxSource} />
+        <MDXRemote {...mdxSource} components={components} />
       </div>
     </div>
   );
 };
+
 export default BlogPost;

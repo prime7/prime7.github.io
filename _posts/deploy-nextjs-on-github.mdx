@@ -1,0 +1,103 @@
+---
+title: Deploying Your Next.js Application on GitHub Pages
+metaTitle: "Deploying Your Next.js Application on GitHub Pages"
+metaDesc: "Learn how to deploy your Next.js application on GitHub Pages with this step-by-step guide. Ensure your project is accessible to the world with ease."
+date: "2024-12-14"
+coverImageWidth: 640
+coverImageHeight: 260
+author:
+  - name: Tarek Ahmed
+  - title: Software engineer
+category: development
+---
+
+Deploying your Next.js application on GitHub Pages is a great way to make your project accessible to the world. GitHub Pages provides a simple and free hosting solution for static websites. In this guide, we'll walk you through the steps to deploy your Next.js application on GitHub Pages.
+
+## Step 1: Configure Your Next.js Project
+
+First, configure your Next.js project for static export. Update your next.config.js file:
+
+```js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+  basePath: "/your-repo-name",
+};
+
+module.exports = nextConfig;
+```
+
+## Step 2: Install GitHub Pages Deployment Package
+
+Install the gh-pages package:
+
+```bash
+yarn add -D gh-pages
+```
+
+## Step 3: Update package.json
+
+Modify your package.json to include the following:
+
+```json
+{
+  "homepage": "https://username.github.io/repository",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "predeploy": "npm run build && touch out/.nojekyll",
+    "deploy": "gh-pages -d out --dotfiles"
+  }
+}
+```
+
+> Replace username and repository with your actual GitHub username and repository name.
+
+## Step 4: Create GitHub Repository
+
+Create a new repository on GitHub for your project if you haven't already.
+
+## Step 5: Initialize Git and Push to GitHub
+
+If you haven't initialized Git in your project, do so and push to GitHub:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/username/repository.git
+git push -u origin main
+```
+
+## Step 6: Deploy Your Application
+
+Run the deployment command:
+
+```bash
+yarn deploy
+```
+
+This command will build your project, create a .nojekyll file to bypass Jekyll processing, and push the contents of the out directory to the gh-pages branch of your repository.
+
+## Step 7: Configure GitHub Pages Settings
+
+Go to your repository on GitHub
+Navigate to Settings > Pages
+Under "Source", select the gh-pages branch
+Save the changes
+
+## Step 8: Set Up GitHub Actions (Optional)
+
+For automated deployments, go to settings -> pages -> then on build and deployment choose Github Actions.
+It should automatically recognise the codebase and it will populate a `.github/workflows/nextjs.yml` into your project and once you merge that in github it should start a build.
+
+This workflow will automatically build and deploy your site when you push to the main branch
+
+## Step 9: Verify Your Deployment
+
+After the deployment is complete, your site should be accessible at https://username.github.io/repository/.
+Remember to commit and push your changes to the main branch after making these configurations. GitHub will automatically trigger the deployment process based on your setup24.
+By following these steps, you should be able to successfully deploy your Next.js application on GitHub Pages. Make sure to test your deployment and verify that all your routes and assets are working correctly
