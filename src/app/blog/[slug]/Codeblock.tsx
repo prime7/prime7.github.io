@@ -7,7 +7,7 @@ const CodeBlock = ({ children }: { children: React.ReactNode }) => {
 
   const copyToClipboard = async () => {
     const codeText = React.isValidElement(children)
-      ? children.props.children
+      ? (children as React.ReactElement<any>).props.children
       : children;
 
     if (codeText) {
