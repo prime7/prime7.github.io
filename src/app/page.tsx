@@ -12,18 +12,18 @@ export default function Home() {
   const time = useMountainTime();
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 text-center w-full dark:bg-gray-900 dark:text-white">
-      <div className="w-24 h-24 mb-4 bg-blue-500 text-white rounded-full flex items-center justify-center dark:bg-blue-700">
-        <UserRound size={48} />
+    <div className="flex flex-col items-center justify-center p-4 text-center w-full bg-white dark:bg-black text-green-700 dark:text-green-500 font-mono">
+      <div className="w-24 h-24 mb-4 border-2 border-green-700 dark:border-green-500 rounded-full flex items-center justify-center">
+        <UserRound size={48} className="text-green-700 dark:text-green-500" />
       </div>
-      <h1 className="text-3xl font-bold text-gray-800 dark:text-gray-200">Tarek Ahmed</h1>
-      <h2 className="text-xl text-gray-500 mb-4 dark:text-gray-400">Software Engineer</h2>
+      <h1 className="text-3xl font-bold text-green-600 dark:text-green-400">Tarek Ahmed</h1>
+      <h2 className="text-xl text-green-700 dark:text-green-500 mb-4">Software Engineer</h2>
 
       <div className="flex items-center space-x-3 mb-4">
-        <Mail className="text-blue-600 dark:text-blue-400" />
+        <Mail className="text-green-700 dark:text-green-500" />
         <a 
           href="mailto:tarek@example.com" 
-          className="text-blue-800 hover:underline dark:text-blue-300"
+          className="text-green-600 hover:text-green-500 dark:text-green-400 dark:hover:text-green-300"
         >
           tarek5701@gmail.com
         </a>
@@ -32,9 +32,9 @@ export default function Home() {
       <div className="flex space-x-4 mb-4">
         <Link 
           href="/about" 
-          className="flex items-center space-x-2 bg-gray-100 hover:bg-gray-200 p-3 rounded-lg transition dark:bg-gray-800 dark:hover:bg-gray-700"
+          className="flex items-center space-x-2 border border-green-700 dark:border-green-500 hover:bg-green-100 dark:hover:bg-green-900/30 p-3 rounded-lg transition"
         >
-          <UserRound className="text-gray-600 dark:text-gray-300" />
+          <UserRound className="text-green-700 dark:text-green-500" />
           <span>About Me</span>
         </Link>
 
@@ -42,15 +42,15 @@ export default function Home() {
           href="https://calendar.app.google/iedo21DEW38bFRwg6" 
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center space-x-2 bg-green-100 hover:bg-green-200 p-3 rounded-lg transition dark:bg-green-800 dark:hover:bg-green-700"
+          className="flex items-center space-x-2 border border-green-700 dark:border-green-500 hover:bg-green-100 dark:hover:bg-green-900/30 p-3 rounded-lg transition"
         >
-          <Calendar className="text-green-600 dark:text-green-300" />
+          <Calendar className="text-green-700 dark:text-green-500" />
           <span>Schedule Meeting</span>
-          <ExternalLink size={16} />
+          <ExternalLink size={16} className="text-green-700 dark:text-green-500" />
         </Link>
       </div>
 
-      <div className="text-gray-500 text-sm dark:text-gray-400">
+      <div className="text-green-700 dark:text-green-500 text-sm">
         Current Time: {time} (MT)
       </div>
     </div>
