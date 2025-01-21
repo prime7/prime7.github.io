@@ -12,7 +12,7 @@ export default function Home() {
   const time = useMountainTime();
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 text-center w-full bg-gradient-to-br from-slate-900 via-gray-900 to-slate-900 dark:from-slate-900 dark:via-gray-900 dark:to-slate-900 from-slate-50 via-gray-50 to-slate-50 text-slate-900 dark:text-slate-200 font-mono">
+    <div className="flex flex-col items-center justify-center p-4 text-center w-full bg-gradient-to-br from-slate-50 via-gray-50 to-slate-50 dark:from-slate-900 dark:via-gray-900 dark:to-slate-900 text-slate-900 dark:text-slate-200 font-mono">
       <div className="w-full max-w-3xl p-8 border border-slate-200 dark:border-slate-700 rounded-lg shadow-2xl bg-white/95 dark:bg-slate-900/95 relative backdrop-blur-sm hover:border-slate-300 dark:hover:border-slate-600 transition-all duration-300">
         <div className="absolute top-0 left-0 right-0 h-8 bg-slate-100/50 dark:bg-slate-800/50 border-b border-slate-200 dark:border-slate-700 rounded-t-lg flex items-center px-4">
           <div className="flex space-x-2">
