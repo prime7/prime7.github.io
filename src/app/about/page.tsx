@@ -3,7 +3,7 @@ import WorkExperience from './Work';
 import SkillsSection from './Skills';
 import ProfileSection from './Profile';
 import BiographySection from './Biography';
-
+import EducationSection from './Education';
 const AboutPage: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center text-gray-900 dark:text-gray-100 w-full">
@@ -18,6 +18,7 @@ const AboutPage: React.FC = () => {
                     <div className="lg:col-span-8">
                         <BiographySection />
                         <WorkExperience />
+                        <EducationSection />
                     </div>
                 </div>
             </div>
