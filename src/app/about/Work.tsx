@@ -9,14 +9,15 @@ const WORK_EXPERIENCE_DATA = [
     triggerContent: {
       title: "Software Engineer",
       subtitle: "Chegg Inc",
-      date: "February, 2022 - November, 2024",
+      date: "February, 2022 - May, 2025",
     },
     dialogContent: {
       title: "Software Engineer", 
       subtitle: "Chegg Inc",
-      date: "February, 2022 - November, 2024",
+      date: "February, 2022 - May, 2025", // February 28, 2022 - May 15, 2025
       tags: ["React.js", "Node.js", "GraphQL", "AWS SNS", "AWS Lambda", "Optimizely", "OCR", "AWS Polly", "OpenAI Whisper"],
       items: [
+        "Integrated LLM-as-judge pipeline in CI/CD pipeline to rapidly prototype and test new features while ensuring high quality resulted in 62% faster evaluation process",
         "Evolved from front-end specialist to full-stack engineer, mastering React.js, Node.js, federated GraphQL, and real-time subscriptions with AWS SNS and Lambda.",
         "Developed complex custom React WYSIWYG editors and high-performance components for authoring tools.",
         "Delivered two critical acquisition tools in 4 months: a content generation system (flashcards, quizzes, reviews) and a project organization tool, increasing user engagement by 30%.",

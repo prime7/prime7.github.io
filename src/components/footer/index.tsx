@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="container mx-auto px-4 py-8">
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     <div className="text-gray-600 mb-4 md:mb-0">
-                        <p>&copy; {currentYear} All rights reserved</p>
+                        <p>&copy; {currentYear} 🛜 Tarek Ahmed</p>
                     </div>
                     <nav aria-label="Social media links">
                         <ul className="flex space-x-6">
