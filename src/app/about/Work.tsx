@@ -12,23 +12,41 @@ const WORK_EXPERIENCE_DATA = [
       date: "February, 2022 - May, 2025",
     },
     dialogContent: {
-      title: "Software Engineer", 
+      title: "Software Engineer",
       subtitle: "Chegg Inc",
       date: "February, 2022 - May, 2025", // February 28, 2022 - May 15, 2025
-      tags: ["React.js", "Node.js", "GraphQL", "AWS SNS", "AWS Lambda", "Optimizely", "OCR", "AWS Polly", "OpenAI Whisper"],
+      tags: [
+        "Python",
+        "Databricks",
+        "GitLab CI/CD",
+        "LLM",
+        "React",
+        "Node.js",
+        "FastAPI",
+        "AWS",
+        "Kafka",
+        "GraphQL",
+        "Next.js",
+        "Langchain",
+        "OCR",
+        "Optimizely",
+        "Amplitude",
+        "AWS Polly",
+        "OpenAI Whisper",
+      ],
       items: [
-        "Integrated LLM-as-judge pipeline in CI/CD pipeline to rapidly prototype and test new features while ensuring high quality resulted in 62% faster evaluation process",
-        "Evolved from front-end specialist to full-stack engineer, mastering React.js, Node.js, federated GraphQL, and real-time subscriptions with AWS SNS and Lambda.",
-        "Developed complex custom React WYSIWYG editors and high-performance components for authoring tools.",
-        "Delivered two critical acquisition tools in 4 months: a content generation system (flashcards, quizzes, reviews) and a project organization tool, increasing user engagement by 30%.",
-        "Conducted comprehensive A/B testing using Optimizely and internal tools to optimize user experience and conversion rates.",
-        "Engineered NASA, an automation tool leveraging OCR technology to re-author legacy image-based answers into a structured JSON format, streamlining content management and resulting in $6 million cost savings for the company.",
+        'Architected and implemented an automated "LLM-as-judge" pipeline using Python, Databricks, and GitLab CI/CD, which accelerated the AI evaluation process by 62% and reduced overall model development time by 40%.',
+        "Transitioned to a full-stack capacity by taking ownership of end-to-end feature development, utilizing React.js for front-end and building scalable back-end services with FastAPI and Node.js, deployed on AWS and integrated with services like Kafka and GraphQL.",
+        "Engineered and delivered robust, high-performance front-end authoring tools and student-side rendering components, including custom WYSIWYG editors, by developing reusable React libraries extensively adopted by internal teams.",
+        "Developed two critical acquisition tools (content generation & project organization) in 4 months, leveraging Next.js (frontend) and Python (FastAPI, Langchain for LLM orchestration), which increased user engagement by 30%.",
+        "Generated $6 million in cost savings by automating the transformation of legacy image-based content into structured JSON via an OCR-based tool, which significantly streamlined content management workflows.",
+        "Optimized user experience and conversion through comprehensive A/B testing using Optimizely and amplitude.",
         "Integrated audio transcription service, introducing AI-enhanced capabilities to acquisition tools using AWS Polly and OpenAI whisper.",
-        "Partnered with the security team for LLM risk analysis, implementing data protection measures that reduced potential vulnerabilities by 35%.",
-        "Actively participated in agile development processes, from planning to support, in a fast-paced environment.",
-        "Demonstrated strong mentorship skills and consistently delivered high-quality work, meeting project deadlines and exceeding expectations."
-      ]
-    }
+        "Implemented and enforced data protection measures, leveraging security team's LLM risk analysis to reduce potential vulnerabilities by 35%.",
+        "Collaborated with cross-functional teams to design and implement scalable, maintainable, and efficient software solutions, ensuring alignment with business goals and user needs.",
+        "Demonstrated strong mentorship skills and consistently delivered high-quality work, meeting project deadlines and exceeding expectations.",
+      ],
+    },
   },
   {
     triggerContent: {
@@ -38,14 +56,14 @@ const WORK_EXPERIENCE_DATA = [
     },
     dialogContent: {
       title: "Information Technology Coach",
-      subtitle: "Get Coding", 
+      subtitle: "Get Coding",
       date: "Oct 2023 – Feb 2024",
       tags: ["Front-end Development", "Curriculum Development", "Mentorship"],
       items: [
         "Mentored 2 students transitioning into tech, designing curriculum for front-end development and student-side rendering.",
-        "Provided personalized instruction, adapting methods to individual learning styles and project requirements."
-      ]
-    }
+        "Provided personalized instruction, adapting methods to individual learning styles and project requirements.",
+      ],
+    },
   },
   {
     triggerContent: {
@@ -57,11 +75,18 @@ const WORK_EXPERIENCE_DATA = [
       title: "Software Engineer",
       subtitle: "Dhanrhak Investments",
       date: "Nov 2019 – Apr 2021",
-      tags: ["Web Development", "React.js", "CSS Modules", "Next.js", "Tailwind CSS", "AWS"],
+      tags: [
+        "Web Development",
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Django",
+        "Gatsby",
+      ],
       items: [
-        "Worked as a software developer, build 3 websites for the company including the main portfolio website."
-      ]
-    }
+        "Engineered three company websites, including the main portfolio, utilizing Next.js, Gatsby, and Django to expand the company's digital presence.",
+      ],
+    },
   },
   {
     triggerContent: {
@@ -75,10 +100,10 @@ const WORK_EXPERIENCE_DATA = [
       date: "Apr 2019 – Jul 2019",
       tags: ["React.js", "CSS Modules", "Django", "Docker"],
       items: [
-        "Build web UI components in react.js and re-usable CSS modules/utilities, developed Cookups promotion feature, helped on-boarding 35+ new cooks and demonstrate the usage of web and mobile application."
-      ]
-    }
-  }
+        "Built reusable UI components using React.js and styled components, focusing on modular and maintainable frontend architecture, developed Cookup’s promotion feature, helped onboarding 35+ new cooks and demonstrate the usage of web and mobile application.",
+      ],
+    },
+  },
 ];
 
 const WorkExperience = () => {

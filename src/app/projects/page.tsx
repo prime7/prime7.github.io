@@ -14,18 +14,39 @@ export default function Blog() {
         "Practice for interviews with mock interviews and AI-powered interviewer.",
         "Get feedback on your resume and cover letter with AI.",
       ],
-      stack: ["Next.js", "stripe", "Redis", "OpenAI", "RAG", "Anthropic", "Gemini", "Supabase"],
+      stack: [
+        "Next.js",
+        "stripe",
+        "Redis",
+        "OpenAI",
+        "RAG",
+        "Anthropic",
+        "Gemini",
+        "Supabase",
+      ],
       status: "active",
       demo: "https://www.toptechschool.com/",
     },
     {
       name: "Chat Monster",
       description: [
-        "AI-powered customer service solution with embeddable website script.",
-        "Generates chatbots to answer customer queries and drive revenue.", 
-        "Features advanced analytics dashboard for admin panel."
+        "AI-powered customer service chatbot embeddable via script tag.",
+        "Uses OpenAI's language models for real-time, human-like responses.",
+        "Built with Next.js, TypeScript, and Tailwind CSS.",
+        "Features authentication (Next Auth), Stripe subscriptions, and Redis for caching/rate limiting.",
+        "Advanced analytics dashboard for admins.",
       ],
-      stack: ["Next.js", "next-auth", "stripe", "upstash", "OpenAI", "RAG", "vector embeddings"],
+      stack: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "next-auth",
+        "stripe",
+        "Redis",
+        "OpenAI",
+        "RAG",
+        "vector embeddings",
+      ],
       status: "active",
       github: "https://github.com/prime7/monster",
       demo: "https://www.chatmonster.co/",
@@ -35,7 +56,7 @@ export default function Blog() {
       description: [
         "GitHub-hosted personal portfolio website.",
         "Showcases projects, skills, and professional experience.",
-        "Demonstrates web development and design capabilities."
+        "Demonstrates web development and design capabilities.",
       ],
       stack: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
       github: "https://github.com/prime7/prime7.github.io",
@@ -60,57 +81,58 @@ export default function Blog() {
             {" "}
             {">"} ls projects --detailed
           </p>
-          {showProjects && projects.map((project) => (
-            <div key={project.name} className="ml-4 mt-2 space-y-4">
-              <div className="group">
-                <div className="flex items-center">
-                  <span className="text-green-600 dark:text-green-400">
-                    └──
-                  </span>
-                  <span className="ml-2 font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                    {project.name}
-                  </span>
-                </div>
-                <div className="ml-8 mt-2">
-                  <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
-                    {project.description.map((line, index) => (
-                      <li key={index}>{line}</li>
-                    ))}
-                  </ul>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {project.stack.map((tech) => (
-                      <span
-                        key={tech}
-                        className="px-2 py-1 text-xs rounded-md bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
-                      >
-                        {tech}
-                      </span>
-                    ))}
+          {showProjects &&
+            projects.map((project) => (
+              <div key={project.name} className="ml-4 mt-2 space-y-4">
+                <div className="group">
+                  <div className="flex items-center">
+                    <span className="text-green-600 dark:text-green-400">
+                      └──
+                    </span>
+                    <span className="ml-2 font-bold group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                      {project.name}
+                    </span>
                   </div>
-                  <div className="mt-2 space-x-4">
-                    {project.github && (
+                  <div className="ml-8 mt-2">
+                    <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
+                      {project.description.map((line, index) => (
+                        <li key={index}>{line}</li>
+                      ))}
+                    </ul>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {project.stack.map((tech) => (
+                        <span
+                          key={tech}
+                          className="px-2 py-1 text-xs rounded-md bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="mt-2 space-x-4">
+                      {project.github && (
+                        <Link
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center"
+                        >
+                          <span className="text-xs">{">"}</span> github
+                        </Link>
+                      )}
                       <Link
-                        href={project.github}
+                        href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center"
                       >
-                        <span className="text-xs">{">"}</span> github
+                        <span className="text-xs">{">"}</span> demo
                       </Link>
-                    )}
-                    <Link
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center"
-                    >
-                      <span className="text-xs">{">"}</span> demo
-                    </Link>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
       </div>
     </div>

@@ -9,36 +9,36 @@ const EDUCATION_DATA = [
     triggerContent: {
       title: "PBD in Data Analytics",
       subtitle: "Douglas College",
-      date: "2019 - 2021",
+      date: "Sept 2019 - Dev 2021",
     },
     dialogContent: {
-      title: "PBD in Data Analytics", 
+      title: "PBD in Data Analytics",
       subtitle: "Douglas College",
-      date: "2019 - 2021",
+      date: "Sept 2019 - Dec 2021",
       items: [
         "Specialized in Data Analytics",
         "Research focus on Data Visualization",
-        "RStudio, Python, SQL, Tableau, Power BI, System Design, Data Engineering, Operating System"
-      ]
-    }
+        "RStudio, Python, SQL, Tableau, Power BI, System Design, Data Engineering, Operating System",
+      ],
+    },
   },
   {
     triggerContent: {
       title: "Bachelor of Science in Computer Science",
       subtitle: "Ahsanullah University of Science and Technology",
-      date: "2013 - 2018",
+      date: "Jul 2013 - Sept 2018",
     },
     dialogContent: {
       title: "Bachelor of Science in Computer Science",
       subtitle: "Ahsanullah University of Science and Technology",
-      date: "2013 - 2018",
+      date: "Jul 2013 - Sept 2018",
       items: [
         "Major in Software Engineering",
         "Course work: Data Structure, Algorithm, Computer Architecture, Computer Network, Operating System, Database Management System, Software Engineering, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Robotics, Computer Graphics, Computer Security",
-        "Organized and participated in various programming competitions and hackathons"
-      ]
-    }
-  }
+        "Organized and participated in various programming competitions and hackathons",
+      ],
+    },
+  },
 ];
 
 const EducationSection = () => {
