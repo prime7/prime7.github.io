@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+2:I[7113,["173","static/chunks/173-17ab0900fa0516df.js","265","static/chunks/265-98c7b3ab11ca2c42.js","261","static/chunks/261-877191862edbfae4.js","177","static/chunks/app/layout-02b7f66dcd8c3779.js"],"ThemeProvider"]
+3:I[8173,["173","static/chunks/173-17ab0900fa0516df.js","831","static/chunks/app/blog/page-41821c4a26e9307f.js"],""]
+4:I[2702,["173","static/chunks/173-17ab0900fa0516df.js","265","static/chunks/265-98c7b3ab11ca2c42.js","261","static/chunks/261-877191862edbfae4.js","177","static/chunks/app/layout-02b7f66dcd8c3779.js"],"ThemeToggle"]
+5:I[5244,[],""]
+6:I[3866,[],""]
+8:I[1299,["173","static/chunks/173-17ab0900fa0516df.js","265","static/chunks/265-98c7b3ab11ca2c42.js","261","static/chunks/261-877191862edbfae4.js","177","static/chunks/app/layout-02b7f66dcd8c3779.js"],"default"]
+9:I[5516,["173","static/chunks/173-17ab0900fa0516df.js","265","static/chunks/265-98c7b3ab11ca2c42.js","261","static/chunks/261-877191862edbfae4.js","177","static/chunks/app/layout-02b7f66dcd8c3779.js"],"Toaster"]
+b:I[6213,[],"OutletBoundary"]
+d:I[6213,[],"MetadataBoundary"]
+f:I[6213,[],"ViewportBoundary"]
+11:I[4835,[],""]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/1d777c4fe24ba8ca.css","style"]
+:HL["/_next/static/css/931b179cff3131dc.css","style"]
+0:{"P":null,"b":"1Kjiqc-Unj0pts1TOD89q","p":"","c":["","blog","deploy-nextjs-on-github"],"i":false,"f":[[["",{"children":["blog",{"children":[["slug","deploy-nextjs-on-github","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1d777c4fe24ba8ca.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/931b179cff3131dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"className":"__className_e8ce0c","children":["$","body",null,{"className":"flex flex-col min-h-screen","children":["$","$L2",null,{"attribute":"class","defaultTheme":"light","enableSystem":true,"disableTransitionOnChange":true,"themes":["light","dark","orange"],"children":[[["$","nav",null,{"className":"bg-background shadow-sm border-b border-border sticky top-0 z-50","children":["$","div",null,{"className":"flex justify-center h-16","children":["$","div",null,{"className":"flex space-x-8","children":[[["$","$L3","Home",{"href":"/","passHref":true,"className":"inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-bold text-muted-foreground hover:border-primary hover:text-foreground","children":"Home"}],["$","$L3","Blog",{"href":"/blog","passHref":true,"className":"inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-bold text-muted-foreground hover:border-primary hover:text-foreground","children":"Blog"}],["$","$L3","About",{"href":"/about","passHref":true,"className":"inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-bold text-muted-foreground hover:border-primary hover:text-foreground","children":"About"}],["$","$L3","Projects",{"href":"/projects","passHref":true,"className":"inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-bold text-muted-foreground hover:border-primary hover:text-foreground","children":"Projects"}]],["$","$L4",null,{}]]}]}]}],["$","main",null,{"className":"flex-1 flex dark:bg-gray-900 dark:text-white","children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],"$L7"],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L8",null,{}]],["$","$L9",null,{}]]}]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","div",null,{"className":"container mx-auto","children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]]}],{"children":[["slug","deploy-nextjs-on-github","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$La",null,["$","$Lb",null,{"children":"$Lc"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ZVTHvyTqQZDNqVuNSHbYa",{"children":[["$","$Ld",null,{"children":"$Le"}],["$","$Lf",null,{"children":"$L10"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]]}],false]],"m":"$undefined","G":["$11","$undefined"],"s":false,"S":true}
+7:E{"digest":"NEXT_REDIRECT;replace;/;307;"}
+10:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Create Next App"}],["$","meta","2",{"name":"description","content":"Generated by create next app"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+c:null
+12:I[1467,["173","static/chunks/173-17ab0900fa0516df.js","265","static/chunks/265-98c7b3ab11ca2c42.js","970","static/chunks/970-bc21e476d20258ff.js","953","static/chunks/app/blog/%5Bslug%5D/page-0dcecdb553e7ab53.js"],"default"]
+13:T1649,/*@jsxRuntime automatic @jsxImportSource react*/
+const {Fragment: _Fragment, jsx: _jsx, jsxs: _jsxs} = arguments[0];
+const {useMDXComponents: _provideComponents} = arguments[0];
+function _createMdxContent(props) {
+  const _components = Object.assign({
+    p: "p",
+    h2: "h2",
+    pre: "pre",
+    code: "code",
+    blockquote: "blockquote"
+  }, _provideComponents(), props.components);
+  return _jsxs(_Fragment, {
+    children: [_jsx(_components.p, {
+      children: "Deploying your Next.js application on GitHub Pages is a great way to make your project accessible to the world. GitHub Pages provides a simple and free hosting solution for static websites. In this guide, we'll walk you through the steps to deploy your Next.js application on GitHub Pages."
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 1: Configure Your Next.js Project"
+    }), "\n", _jsx(_components.p, {
+      children: "First, configure your Next.js project for static export. Update your next.config.js file:"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        className: "language-js",
+        children: "/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  output: \"export\",\n  basePath: \"/your-repo-name\",\n};\n\nmodule.exports = nextConfig;\n"
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 2: Install GitHub Pages Deployment Package"
+    }), "\n", _jsx(_components.p, {
+      children: "Install the gh-pages package:"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        className: "language-bash",
+        children: "yarn add -D gh-pages\n"
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 3: Update package.json"
+    }), "\n", _jsx(_components.p, {
+      children: "Modify your package.json to include the following:"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        className: "language-json",
+        children: "{\n  \"homepage\": \"https://username.github.io/repository\",\n  \"scripts\": {\n    \"dev\": \"next dev\",\n    \"build\": \"next build\",\n    \"start\": \"next start\",\n    \"export\": \"next export\",\n    \"predeploy\": \"npm run build && touch out/.nojekyll\",\n    \"deploy\": \"gh-pages -d out --dotfiles\"\n  }\n}\n"
+      })
+    }), "\n", _jsxs(_components.blockquote, {
+      children: ["\n", _jsx(_components.p, {
+        children: "Replace username and repository with your actual GitHub username and repository name."
+      }), "\n"]
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 4: Create GitHub Repository"
+    }), "\n", _jsx(_components.p, {
+      children: "Create a new repository on GitHub for your project if you haven't already."
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 5: Initialize Git and Push to GitHub"
+    }), "\n", _jsx(_components.p, {
+      children: "If you haven't initialized Git in your project, do so and push to GitHub:"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        className: "language-bash",
+        children: "git init\ngit add .\ngit commit -m \"Initial commit\"\ngit branch -M main\ngit remote add origin https://github.com/username/repository.git\ngit push -u origin main\n"
+      })
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 6: Deploy Your Application"
+    }), "\n", _jsx(_components.p, {
+      children: "Run the deployment command:"
+    }), "\n", _jsx(_components.pre, {
+      children: _jsx(_components.code, {
+        className: "language-bash",
+        children: "yarn deploy\n"
+      })
+    }), "\n", _jsx(_components.p, {
+      children: "This command will build your project, create a .nojekyll file to bypass Jekyll processing, and push the contents of the out directory to the gh-pages branch of your repository."
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 7: Configure GitHub Pages Settings"
+    }), "\n", _jsx(_components.p, {
+      children: "Go to your repository on GitHub\nNavigate to Settings > Pages\nUnder \"Source\", select the gh-pages branch\nSave the changes"
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 8: Set Up GitHub Actions (Optional)"
+    }), "\n", _jsxs(_components.p, {
+      children: ["For automated deployments, go to settings -> pages -> then on build and deployment choose Github Actions.\nIt should automatically recognise the codebase and it will populate a ", _jsx(_components.code, {
+        children: ".github/workflows/nextjs.yml"
+      }), " into your project and once you merge that in github it should start a build."]
+    }), "\n", _jsx(_components.p, {
+      children: "This workflow will automatically build and deploy your site when you push to the main branch"
+    }), "\n", _jsx(_components.h2, {
+      children: "Step 9: Verify Your Deployment"
+    }), "\n", _jsx(_components.p, {
+      children: "After the deployment is complete, your site should be accessible at https://username.github.io/repository/.\nRemember to commit and push your changes to the main branch after making these configurations. GitHub will automatically trigger the deployment process based on your setup24.\nBy following these steps, you should be able to successfully deploy your Next.js application on GitHub Pages. Make sure to test your deployment and verify that all your routes and assets are working correctly"
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = Object.assign({}, _provideComponents(), props.components);
+  return MDXLayout ? _jsx(MDXLayout, Object.assign({}, props, {
+    children: _jsx(_createMdxContent, props)
+  })) : _createMdxContent(props);
+}
+return {
+  default: MDXContent
+};
+a:["$","$L12",null,{"mdxSource":{"compiledSource":"$13","frontmatter":{"title":"Deploying Your Next.js Application on GitHub Pages","metaTitle":"Deploying Your Next.js Application on GitHub Pages","metaDesc":"Learn how to deploy your Next.js application on GitHub Pages with this step-by-step guide. Ensure your project is accessible to the world with ease.","date":"2024-12-14","coverImageWidth":640,"coverImageHeight":260,"author":[{"name":"Tarek Ahmed"},{"title":"Software engineer"}],"category":"development"},"scope":{}}}]
